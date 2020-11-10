@@ -353,17 +353,12 @@ ul.mega-menu-content {
 }
 
 .single-product {
-	border: 1px solid #e2e2e2;
-	padding: 10px;
-	padding-top: 15px;
-	transition: 0.2s;
-	background: #fff;
-	min-height: 280px;
-	position: relative;
-	margin-bottom: 30px;
-}
-.single-product:hover {
-	border-color: #feb300;
+    padding: 15px;
+    transition: 0.2s;
+    background: #fff;
+    min-height: 280px;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .onsale {
@@ -2426,4 +2421,18 @@ span.followed i {
 .sort-menu a:hover, .sort-menu a.active {
     color: #005eb8;
     border-color: #005eb8;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.product-area .row {
+    margin: 0 -7px;
+}
+
+.product-area .row [class*=col] {
+    border: none;
+    padding: 0 7px;
 }

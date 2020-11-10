@@ -142,14 +142,14 @@
 		}
 	});
 
-	var sidebar = $(".woo-sidebar");
-	$(window).on("scroll", function () {
-		if ($(window).scrollTop() > 220) {
-			sidebar.addClass("sticky");
-		} else {
-			sidebar.removeClass("sticky");
-		}
-	});
+	// var sidebar = $(".woo-sidebar");
+	// $(window).on("scroll", function () {
+	// 	if ($(window).scrollTop() > 220) {
+	// 		sidebar.addClass("sticky");
+	// 	} else {
+	// 		sidebar.removeClass("sticky");
+	// 	}
+	// });
 
 	// WOW Js Active
 	new WOW().init();
