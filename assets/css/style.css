@@ -228,7 +228,7 @@ img {
 .nav-cat-btn {
 	background: #feb300;
 	color: #282828;
-	padding: 11px 0;
+	padding: 10px 0;
 	font-size: 16px;
 	padding-left: 15px;
 	cursor: pointer;
@@ -246,7 +246,7 @@ img {
     z-index: 2;
     padding-right: 0;
     cursor: pointer;
-    top: 46px;
+    top: 44px;
     left: 0;
     display: none;
     box-shadow: 0px 1px 2px 0px #777;
@@ -1446,7 +1446,7 @@ td.product-remove {
 }
 
 .header-top {
-	padding: 15px 0;
+	padding: 10px 0;
 }
 .search-by-cat-wrap {
 	position: relative;
@@ -2106,7 +2106,7 @@ span.followed i {
 }
 
 .single-banner-item {
-    height: 300px;
+    height: 335px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
